@@ -3,43 +3,38 @@
 <head>
 <title>Page Title</title>
 <link rel="stylesheet" href="css.css">
+  <script src="javascript.js"></script>
 </head>
 <body>
 <h1 class="titolo">Netiquette: Introduzione al galateo di internet</h1>
-<nav class="topnav">
-	 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-  <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-</div> </nav>
-
+<nav>
+	<div class="dropdown">
+  		<button onclick="myFunction()" class="dropbtn">Home</button>
+  		<div id="myDropdown" class="dropdown-content">
+    		<a href="#">Link 1</a>
+    		<a href="#">Link 2</a>
+    		<a href="#">Link 3</a>
+		</div> 
+	</div>
+	<div class="dropdown">
+  		<button onclick="myFunction()" class="dropbtn">Storia</button>
+  	  		<div id="myDropdown" class="dropdown-content">
+    		<a href="#">A</a>
+    		<a href="#">B</a>
+		</div>
+	</div>
+	<div class="dropdown">
+  		<button onclick="myFunction()" class="dropbtn">Cyberbullismo</button>
+  		<div id="myDropdown" class="dropdown-content">
+    		<a href="#">1</a>
+    		<a href="#">2</a>
+    		<a href="#">3</a>
+		</div>
+    <button class="dropbtn" type="button">IT Security</button>
+    <button class="dropbtn" type="button">Chi siamo</button>
+</div>
 </nav>
 <p style="font-size:20px;"> 
-
 <div class="primoparagrafo">Fino a a metà degli anni novanta, l'accesso ad Internet era assai complicato richiedendo notevole perizia e delle competenze da iniziati.
 I nuovi adepti, conosciuti in gergo col nome di newbies (traducibile in neofiti) per potersi muovere tra le risorse disponibili in Internet, dovevano chiedere aiuto ed informazioni ai verterani in un mondo che non presentava certamente strumenti user-friend quali si riscontrano usando MS Windows o Apple Macintosh.
 La necessita' di richiedere aiuto ad altri per potersi districare in questo strano mondo, aveva un profondo significato educativo in quanto i nuovi utenti, per ottenere le informazioni di cui avevano bisogno, dovevano comportarsi in modo gentile e corretto.

@@ -18,15 +18,14 @@ body{
 .dropbtn {
   background-color: #3498DB;
   color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
+  padding: 20px;
+  font-size: 20px;
   cursor: pointer;
-}
-.navbar{
-	
-}
+  margin-left: 65px;
+  width: 200px;
+  font-family: verdana;
 
+}
 /* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
   background-color: #2980B9;
@@ -34,7 +33,7 @@ body{
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
+  position: all;
   display: inline-block;
 }
 
@@ -43,26 +42,32 @@ body{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 180px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.dropdown-content a{
   color: black;
-  padding: 12px 16px;
-  text-decoration: none;
+  padding: 10px 14px;
+  text-decoration: all;
   display: block;
+  object-position: bottom;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #ddd}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.show {display:block;
+	object-position: bottom;
+	align-content: center;
+}
 .titolo{
 	border-style:solid;
+		text-align: center;
 
 }
 .titolo:hover{
@@ -75,15 +80,7 @@ img{
 .topnav {
 	position: top;
 	text-align: center;
-	color:red;
-}
-.menu1{
-	background-color: red;
-	text-align:left;
-}
-.menu2{
-	background-color:yellow;
-}
-.menu3{
-	background-color:blue;
+	color:blue;
+	border-color: white;
+	margin-bottom: 300px;
 }
