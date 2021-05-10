@@ -1,11 +1,12 @@
 body{
-	background-color:lightblue;
+	background-color:lightcyan;
 	font-size: 20px;
 	padding-top:30px;
 	padding-bottom: 20px;
 	padding-left:35px;
 	padding-right:35px;
 	text-align: justify;
+    font-family:verdana;
 }
 .primoparagrafo{
 	font-size: 20px;
