@@ -43,4 +43,4 @@ if ($hint=="") {
 
 //output the response
 echo $response;
-?> 
+?>
